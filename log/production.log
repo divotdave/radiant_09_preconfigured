@@ -1,0 +1,134 @@
+# Logfile created on Wed Nov 24 07:21:47 -0800 2010
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-11-24 07:35:59) [GET]
+  Parameters: {"action"=>"show_page", "url"=>"/", "controller"=>"site"}
+Redirected to http://localhost:3000/admin/welcome
+Completed in 50ms (DB: 6) | 302 Found [http://localhost/]
+
+
+Processing Admin::WelcomeController#index (for 127.0.0.1 at 2010-11-24 07:36:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/welcome"}
+Redirected to http://localhost:3000/admin/pages
+Completed in 6ms (DB: 1) | 302 Found [http://localhost/admin/welcome]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-11-24 07:36:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/admin/pages]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-11-24 07:36:00) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+Rendering template within layouts/application
+Rendering admin/welcome/login
+Completed in 102ms (View: 98, DB: 2) | 200 OK [http://localhost/admin/login]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-11-24 07:36:01) [GET]
+  Parameters: {"action"=>"show_page", "url"=>"/", "controller"=>"site"}
+Redirected to http://localhost:3000/admin/welcome
+Completed in 10ms (DB: 4) | 302 Found [http://localhost/]
+
+
+Processing Admin::WelcomeController#index (for 127.0.0.1 at 2010-11-24 07:36:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/welcome"}
+Redirected to http://localhost:3000/admin/pages
+Completed in 3ms (DB: 1) | 302 Found [http://localhost/admin/welcome]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-11-24 07:36:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/admin/pages]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-11-24 07:36:01) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+Rendering template within layouts/application
+Rendering admin/welcome/login
+Completed in 13ms (View: 7, DB: 4) | 200 OK [http://localhost/admin/login]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-11-24 07:36:05) [POST]
+  Parameters: {"username_or_email"=>"admin", "action"=>"login", "authenticity_token"=>"Hr17rnrCyaRS86LkrPpKjbm1lvw1ctitGGGuPO0Hux4=", "controller"=>"admin/welcome", "password"=>"[FILTERED]"}
+Redirected to http://localhost:3000/admin/pages
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/admin/login]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-11-24 07:36:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 127ms (View: 117, DB: 3) | 200 OK [http://localhost/admin/pages]
+
+
+Processing Admin::PreferencesController#show (for 127.0.0.1 at 2010-11-24 07:36:07) [GET]
+  Parameters: {"action"=>"show", "controller"=>"admin/preferences"}
+Rendering template within layouts/application
+Rendering admin/preferences/edit
+Completed in 77ms (View: 69, DB: 3) | 200 OK [http://localhost/admin/preferences]
+
+
+Processing Admin::ExtensionsController#index (for 127.0.0.1 at 2010-11-24 07:36:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/extensions"}
+Rendering template within layouts/application
+Rendering admin/extensions/index
+Completed in 58ms (View: 35, DB: 2) | 200 OK [http://localhost/admin/extensions]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-11-24 07:36:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 21ms (View: 14, DB: 3) | 200 OK [http://localhost/admin/pages]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-11-24 07:36:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 133ms (View: 123, DB: 3) | 200 OK [http://localhost/admin/layouts]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-11-24 07:36:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 22ms (View: 15, DB: 3) | 200 OK [http://localhost/admin/pages]
+
+
+Processing Admin::AssetsController#index (for 127.0.0.1 at 2010-11-24 07:36:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/assets"}
+Rendering template within layouts/application
+Rendering admin/assets/index
+Completed in 59ms (View: 49, DB: 3) | 200 OK [http://localhost/admin/assets]
+
+
+Processing Admin::PreferencesController#show (for 127.0.0.1 at 2010-11-24 07:36:19) [GET]
+  Parameters: {"action"=>"show", "controller"=>"admin/preferences"}
+Rendering template within layouts/application
+Rendering admin/preferences/edit
+Completed in 35ms (View: 31, DB: 2) | 200 OK [http://localhost/admin/preferences]
+
+
+Processing Admin::SettingsController#index (for 127.0.0.1 at 2010-11-24 07:36:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/settings"}
+Rendering template within layouts/application
+Rendering admin/settings/index
+Completed in 44ms (View: 35, DB: 3) | 200 OK [http://localhost/admin/settings]
+
+
+Processing Admin::WelcomeController#logout (for 127.0.0.1 at 2010-11-24 07:36:31) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"admin/welcome"}
+Redirected to http://localhost:3000/admin/login
+Completed in 45ms (DB: 2) | 302 Found [http://localhost/admin/logout]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-11-24 07:36:31) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+Rendering template within layouts/application
+Rendering admin/welcome/login
+Completed in 9ms (View: 5, DB: 2) | 200 OK [http://localhost/admin/login]

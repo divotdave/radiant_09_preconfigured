@@ -1,0 +1,1 @@
+# Logfile created on Wed Nov 24 07:24:13 -0800 2010DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/hughesmac/David/Web Lab/Templates/radiant_09_base/vendor/extensions/copy_move/copy_move_extension.rb:8)
