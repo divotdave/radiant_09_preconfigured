@@ -1,3 +1,10 @@
+==THIS IS A PRECONFIGURED RADIANT SETUP==
+Extensions:
+* Paperclipped
+* Settings
+* Copy Move
+==Database is already bootstrapped in production==
+
 == Welcome to Radiant
 
 Radiant is a no-fluff, open source content management system designed for
